@@ -9,7 +9,7 @@ const Programmes = () => {
         <header>
             <Header/>
         </header>
-    <section className="bg-green-800 py-20">
+    <section className="bg-white    -800 py-20">
       {/* Programmes Title */}
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-white text-3xl font-semibold">Our Programmes</h2>
