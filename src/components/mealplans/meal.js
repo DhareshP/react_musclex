@@ -17,14 +17,14 @@ const MealsPage = () => {
   }
 
   const recipes = [
-    { id: 1, title: 'Chicken & Spinach Skillet Pasta with Lemon & Parmesan', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Chicken Recipes' },
-    { id: 2, title: 'Skillet Lemon Chicken & Potatoes with Kale', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Chicken Recipes' },
-    { id: 3, title: 'Sheet-Pan Chicken Fajita Bowls', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Bowl Recipes' },
-    { id: 4, title: 'Chicken Cutlets with Sun-Dried Tomato Cream Sauce', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Chicken Recipes' },
-    { id: 5, title: 'Chicken & Spinach Skillet Pasta with Lemon & Parmesan', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Chicken Recipes' },
-    { id: 6, title: 'Skillet Lemon Chicken & Potatoes with Kale', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Chicken Recipes' },
-    { id: 7, title: 'Sheet-Pan Chicken Fajita Bowls', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Bowl Recipes' },
-    { id: 8, title: 'Chicken Cutlets with Sun-Dried Tomato Cream Sauce', image: '/placeholder.svg?height=200&width=300', category: 'Healthy Chicken Recipes' },
+    { id: 1, title: 'Moong Dal Halwa', image: 'https://images.unsplash.com/photo-1517244683847-7456b63c5969?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D height=400&width=300', category: 'Healthy Deserts Recipes' },
+    { id: 2, title: 'South Indian Banana leaf Plate with rice and vegitables', image: 'https://images.unsplash.com/photo-1625398407796-82650a8c135f?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D height=200&width=300', category: 'South Indian' },
+    { id: 3, title: 'Upma', image: 'https://images.unsplash.com/photo-1649404263664-af12ed1194fd?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dheight=200&width=300', category: 'Healthy Bowl Recipes' },
+    { id: 4, title: 'Dosa and Chutney with Sambar', image: 'https://images.unsplash.com/photo-1694849789325-914b71ab4075?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D height=400&width=300', category: 'Healthy BreakFast Recipes' },
+    { id: 5, title: 'Chickpea and Roti', image: 'https://plus.unsplash.com/premium_photo-1695456064603-aa7568121827?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D height=200&width=300', category: 'Lunch Recipies' },
+    { id: 6, title: 'Lauki malai Kofta', image: 'https://images.unsplash.com/photo-1675062521103-2163d664643d?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dheight=200&width=300', category: 'Lunch' },
+    { id: 7, title: 'Healthy Rice Bowl', image: 'https://plus.unsplash.com/premium_photo-1695029502961-f57f307bd0c0?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3Dheight=200&width=300', category: 'Healthy Bowl Recipes' },
+    { id: 8, title: 'Rajma Chawal Bowl', image: 'https://images.unsplash.com/photo-1593560704563-f176a2eb61db?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D height=200&width=300', category: 'Healthy Bowl Recipes' },
     // Add more recipe objects as needed
   ]
 
@@ -33,14 +33,15 @@ const MealsPage = () => {
       <header>
         <Header/>
       </header>
-    <div className="bg-white min-h-screen">
-      <header className="bg-green-700 text-white py-4">
+    <div className=" min-h-screen">   
+    {/* bg-white */}
+      <header className="bg-orange-700 text-white py-4">
         <div className="container mx-auto px-4">
           <h1 className="text-3xl font-bold">Meals and Healthy Recipes</h1>
         </div>
       </header>
 
-      <nav className="bg-green-600 text-white py-2">
+      <nav className="bg-orange -600 text-white py-2">
         <div className="container mx-auto px-4">
           <ul className="flex space-x-4">
             <li><a href="#" className="hover:underline">Breakfast</a></li>

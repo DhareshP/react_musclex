@@ -3,12 +3,14 @@ import Header from "../header/header";
 import Footer from "../footer/footer";
 
 const Contact = () => {
-    return (
-        <div>
-            <header>
+    return (   
+      <div>
+        <header>
                 <Header/>
             </header>
-    <div className="bg-white py-12 px-4 sm:px-6 lg:px-8">
+          
+        <div>
+    <div className="py-12 px-4 sm:px-6 lg:px-8 mt-16">
       <div className="max-w-lg mx-auto">
         <h2 className="text-2xl font-bold text-center">Contact</h2>
         <p className="text-center text-gray-600 mb-6">Get in touch to start your journey</p>
@@ -84,11 +86,11 @@ const Contact = () => {
 
         <div className="mt-10 text-center">
           <h3 className="font-semibold text-lg">By phone & email</h3>
-          <p className="text-gray-600 mt-2">For general enquiries please contact us on +44 203 862 5401 or via email</p>
-          <h4 className="font-semibold mt-6">Harrods</h4>
-          <p>87-135 Brompton Rd, Knightsbridge, London SW3X 7XL.</p>
-          <h4 className="font-semibold mt-6">Walton Street</h4>
-          <p>88-95 Walton St, South Kensington, London SW5 2PH.</p>
+          <p className="text-gray-600 mt-2">For general enquiries please contact us on +91 7756899776 or via email on dharesh@gmail.com</p>
+          <h4 className="font-semibold mt-6">Pune</h4>
+          <p>Kothrud, Pune</p>
+          {/* <h4 className="font-semibold mt-6"></h4>
+          <p>88-95 Walton St, South Kensington, London SW5 2PH.</p> */}
         </div>
       </div>
     </div>
@@ -96,6 +98,7 @@ const Contact = () => {
                 <Footer/>
             </footer>
         </div>
+</div>
     );
 };
 export default Contact;

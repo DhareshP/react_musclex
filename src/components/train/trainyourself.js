@@ -9,8 +9,8 @@ const Programmes = () => {
         <header>
             <Header/>
         </header>
-    <section className="bg-white    -800 py-20">
-      {/* Programmes Title */}
+    <section className=" -800 py-20">
+      {/* Programmes Title bg-white*/}
       <div className="container mx-auto text-center mb-12">
         <h2 className="text-white text-3xl font-semibold">Our Programmes</h2>
       </div>
@@ -18,9 +18,9 @@ const Programmes = () => {
       {/* Programmes Grid */}
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Program 1: Private 1:1 */}
-        <div className="relative">
+        <div className="relative mb-4 ml-4">
           <img
-            src="https://via.placeholder.com/600x400" // Replace with actual image URL
+            src="https://images.pexels.com/photos/6740735/pexels-photo-6740735.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" // Replace with actual image URL
             alt="Private 1:1"
             className="w-full h-64 object-cover rounded-lg"
           />
@@ -31,9 +31,9 @@ const Programmes = () => {
         </div>
 
         {/* Program 2: Livestream */}
-        <div className="relative">
+        <div className="relative mb-4 mr-4">
           <img
-            src="https://via.placeholder.com/600x400" // Replace with actual image URL
+            src="https://images.pexels.com/photos/8861004/pexels-photo-8861004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" // Replace with actual image URL
             alt="Livestream"
             className="w-full h-64 object-cover rounded-lg"
           />
@@ -44,11 +44,13 @@ const Programmes = () => {
         </div>
       </div>
 
+      <div className="h-8" /> {/* Adjust height as needed */}
+
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
         {/* Program 1: Private 1:1 */}
-        <div className="relative">
+        <div className="relative ml-4">
           <img
-            src="https://via.placeholder.com/600x400" // Replace with actual image URL
+            src="https://images.squarespace-cdn.com/content/v1/5af9f2c32487fd3d62b20afb/6ca5267a-ea0c-4d8b-b05d-4e8839c6c06e/CookedPhotography-EVOLVE-2022-88+%281%29.JPG" // Replace with actual image URL
             alt="Private 1:1"
             className="w-full h-64 object-cover rounded-lg"
           />
@@ -59,9 +61,9 @@ const Programmes = () => {
         </div>
 
         {/* Program 2: Livestream */}
-        <div className="relative">
+        <div className="relative mr-4">
           <img
-            src="https://via.placeholder.com/600x400" // Replace with actual image URL
+            src="https://i0.wp.com/typeonefitness.org/wp-content/uploads/2022/08/Stream-Live-Classes-1.jpg?fit=2000%2C1333&ssl=1  " // Replace with actual image URL
             alt="Livestream"
             className="w-full h-64 object-cover rounded-lg"
           />
@@ -78,6 +80,7 @@ const Programmes = () => {
         </footer>
       </div>
     </div>
+  
     
   );
 };

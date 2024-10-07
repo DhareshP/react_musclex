@@ -5,25 +5,21 @@ import Footer from '../footer/footer.js'
 
 const Blogs = () => {
     return (
-        <div>
-            {/* <div>
+        <div className="flex flex-col min-h-screen">
             <header>
-                    <Header/>
-                </header>
-            </div> */}
-        
-        <div>
-            <h1 class= "bg-yellow-200">This page is under construction.
-                Thank you for visiting!
-            </h1>
-        </div>
+                <Header />
+            </header>
 
-        <div>
-        <footer>
-            <Footer/>
-        </footer>
+            <main className="flex-grow">
+                <h1 className="bg-yellow-400">This page is under construction. Thank you for visiting! <br /> Integrating chatbot soon!
+                Add blogs + reviews </h1>
+            </main>
+
+            <footer>
+                <Footer />
+            </footer>
         </div>
-    </div>
     );
 };
+
 export default Blogs;
